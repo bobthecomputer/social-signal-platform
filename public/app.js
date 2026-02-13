@@ -3,6 +3,18 @@ const runBtn = document.querySelector("#runBtn");
 const reloadBtn = document.querySelector("#reloadBtn");
 const saveSettingsBtn = document.querySelector("#saveSettingsBtn");
 
+const isTauri =
+  typeof window !== "undefined" &&
+  (Boolean(window.__TAURI__) ||
+    Boolean(window.__TAURI_INTERNALS__) ||
+    /tauri/i.test(navigator.userAgent || ""));
+
+const API_BASE = isTauri ? "http://127.0.0.1:8787" : "";
+
+function apiUrl(path) {
+  return `${API_BASE}${path}`;
+}
+
 const watchlistInput = document.querySelector("#watchlistInput");
 const modeInput = document.querySelector("#modeInput");
 const rsiHighInput = document.querySelector("#rsiHighInput");
@@ -172,7 +184,7 @@ function renderTimeline(summaries = []) {
 
 async function saveSettings() {
   const payload = readSettingsForm();
-  const res = await fetch("/api/settings", {
+  const res = await fetch(apiUrl("/api/settings"), {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify(payload),
@@ -182,7 +194,7 @@ async function saveSettings() {
 }
 
 async function loadSnapshot() {
-  const res = await fetch("/api/snapshot");
+  const res = await fetch(apiUrl("/api/snapshot"));
   const data = await res.json();
   setSettingsForm(data.settings);
   renderCards(data.snapshot?.summaries || []);
@@ -194,7 +206,7 @@ async function runPipeline() {
   setStatus("running...");
   runBtn.disabled = true;
   try {
-    await fetch("/api/ingest/run", { method: "POST" });
+    await fetch(apiUrl("/api/ingest/run"), { method: "POST" });
     await loadSnapshot();
     setStatus("updated");
   } catch (error) {

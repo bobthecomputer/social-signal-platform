@@ -27,12 +27,22 @@ let settings = normalizeSettings(await store.readJson("settings.json", settingsD
 await store.writeJson("settings.json", settings);
 
 function json(res, status, payload) {
-  res.writeHead(status, { "content-type": "application/json; charset=utf-8" });
+  res.writeHead(status, {
+    "content-type": "application/json; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-headers": "content-type",
+  });
   res.end(JSON.stringify(payload));
 }
 
 function text(res, status, payload) {
-  res.writeHead(status, { "content-type": "text/plain; charset=utf-8" });
+  res.writeHead(status, {
+    "content-type": "text/plain; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-headers": "content-type",
+  });
   res.end(payload);
 }
 
@@ -54,16 +64,30 @@ async function serveStatic(res, file = "index.html") {
     const resolved = path.normalize(file).replace(/^\/+/, "");
     const full = path.join(publicDir, resolved);
 
-    const ext = path.extname(full);
+    const ext = path.extname(full).toLowerCase();
     const contentType =
       ext === ".js"
         ? "application/javascript"
         : ext === ".css"
           ? "text/css"
-          : "text/html";
+          : ext === ".png"
+            ? "image/png"
+            : ext === ".jpg" || ext === ".jpeg"
+              ? "image/jpeg"
+              : ext === ".webp"
+                ? "image/webp"
+                : ext === ".svg"
+                  ? "image/svg+xml"
+                  : ext === ".ico"
+                    ? "image/x-icon"
+                    : "text/html";
 
-    const data = await readFile(full, "utf8");
-    res.writeHead(200, { "content-type": `${contentType}; charset=utf-8` });
+    const binary = contentType.startsWith("image/") || ext === ".ico";
+    const data = await readFile(full, binary ? undefined : "utf8");
+    res.writeHead(200, {
+      "content-type": binary ? contentType : `${contentType}; charset=utf-8`,
+      "access-control-allow-origin": "*",
+    });
     res.end(data);
   } catch {
     text(res, 404, "Not found");
@@ -75,6 +99,15 @@ const server = http.createServer(async (req, res) => {
   const route = `${req.method} ${url.pathname}`;
 
   try {
+    if (req.method === "OPTIONS") {
+      res.writeHead(204, {
+        "access-control-allow-origin": "*",
+        "access-control-allow-methods": "GET,POST,OPTIONS",
+        "access-control-allow-headers": "content-type",
+      });
+      return res.end();
+    }
+
     if (route === "GET /api/health") {
       return json(res, 200, {
         ok: true,
@@ -122,9 +155,10 @@ const server = http.createServer(async (req, res) => {
       });
     }
 
-    if (route === "GET /") return serveStatic(res, "index.html");
-    if (route === "GET /app.js") return serveStatic(res, "app.js");
-    if (route === "GET /styles.css") return serveStatic(res, "styles.css");
+    if (req.method === "GET" && !url.pathname.startsWith("/api/")) {
+      const file = url.pathname === "/" ? "index.html" : decodeURIComponent(url.pathname.slice(1));
+      return serveStatic(res, file);
+    }
 
     return text(res, 404, "Not found");
   } catch (error) {

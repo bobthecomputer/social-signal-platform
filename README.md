@@ -53,10 +53,25 @@ This project is an executable MVP focused on three modules:
 
 ```bash
 cd social-signal-platform
+npm install
 npm start
 ```
 
 Open: `http://localhost:8787`
+
+## Desktop (Tauri)
+
+This project now includes a Tauri desktop shell (`src-tauri/`) and uses the in-repo logo assets for app icons and in-app branding.
+
+```bash
+cd social-signal-platform
+npm install
+npm run tauri:dev
+```
+
+Notes:
+- `tauri:dev` launches the Node backend via `beforeDevCommand` and opens the desktop app.
+- Browser mode and desktop mode both use the same API endpoints.
 
 Run analytics once:
 - Click **Run pipeline** in UI
