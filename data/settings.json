@@ -1,0 +1,21 @@
+{
+  "watchlist": [
+    "bitcoin",
+    "ethereum",
+    "solana",
+    "dogecoin"
+  ],
+  "redditSubreddits": [
+    "cryptocurrency",
+    "bitcoin",
+    "ethtrader"
+  ],
+  "thresholds": {
+    "rsiOverbought": 70,
+    "rsiOversold": 30,
+    "socialBurstZ": 1.5,
+    "attentionSpikeZ": 2,
+    "manipulationConcentration": 0.6
+  },
+  "mode": "aggressive"
+}

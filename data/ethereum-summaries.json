@@ -1,0 +1,283 @@
+[
+  {
+    "coinId": "ethereum",
+    "ticker": "ETH",
+    "capturedAt": 1770943587697,
+    "priceSource": "binance",
+    "lastPrice": 1933.15,
+    "indicators": {
+      "rsi14": 33.58449946178689,
+      "realizedVolatility": 0.007345335215151736
+    },
+    "social": {
+      "mentionWindows24h": [
+        4,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        5,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        1,
+        3,
+        0,
+        0,
+        1
+      ],
+      "mentionZ": -0.061662641597820665,
+      "mentionBurst": {
+        "z": -0.061662641597820665,
+        "threshold": 2.5,
+        "burst": false,
+        "latest": 1
+      },
+      "redditPostsScanned": 150,
+      "newsCount": 0,
+      "attentionZ": -0.7445587058777478
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.003487024490858649,
+      "meanForwardReturn": -0.019561304343092105,
+      "impacts": [
+        {
+          "ts": 1770860787364,
+          "idx": 49,
+          "forwardReturn": 0.003487024490858649
+        },
+        {
+          "ts": 1770889587364,
+          "idx": 57,
+          "forwardReturn": -0.04260963317704286
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "ethereum",
+    "ticker": "ETH",
+    "capturedAt": 1770943813428,
+    "priceSource": "binance",
+    "lastPrice": 1930.92,
+    "signalScore": 41,
+    "indicators": {
+      "rsi14": 33.18619369249589,
+      "realizedVolatility": 0.007360372955644092
+    },
+    "social": {
+      "mentionWindows24h": [
+        4,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        5,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0,
+        3,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mentionZ": -0.061662641597820665,
+      "mentionBurst": {
+        "z": -0.061662641597820665,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 1
+      },
+      "authorConcentration": 0.631578947368421,
+      "redditPostsScanned": 150,
+      "matchedPosts": 57,
+      "newsCount": 0,
+      "attentionZ": -0.7445587058777478
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.003487024490858649,
+      "meanForwardReturn": -0.019561304343092105,
+      "impacts": [
+        {
+          "ts": 1770861013242,
+          "idx": 49,
+          "forwardReturn": 0.003487024490858649
+        },
+        {
+          "ts": 1770889813242,
+          "idx": 57,
+          "forwardReturn": -0.04260963317704286
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "ethereum",
+    "ticker": "ETH",
+    "capturedAt": 1770943901252,
+    "priceSource": "binance",
+    "lastPrice": 1930.99,
+    "signalScore": 41,
+    "indicators": {
+      "rsi14": 33.19855288359226,
+      "realizedVolatility": 0.0073598637918087404
+    },
+    "social": {
+      "mentionWindows24h": [
+        4,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        5,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mentionZ": -0.061662641597820665,
+      "mentionBurst": {
+        "z": -0.061662641597820665,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 1
+      },
+      "authorConcentration": 0.631578947368421,
+      "redditPostsScanned": 150,
+      "matchedPosts": 57,
+      "newsCount": 0,
+      "attentionZ": -0.7445587058777478
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.003487024490858649,
+      "meanForwardReturn": -0.019561304343092105,
+      "impacts": [
+        {
+          "ts": 1770861101067,
+          "idx": 49,
+          "forwardReturn": 0.003487024490858649
+        },
+        {
+          "ts": 1770889901067,
+          "idx": 57,
+          "forwardReturn": -0.04260963317704286
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "ethereum",
+    "ticker": "ETH",
+    "capturedAt": 1770944032291,
+    "priceSource": "binance",
+    "lastPrice": 1930.96,
+    "signalScore": 41,
+    "indicators": {
+      "rsi14": 33.19325496037024,
+      "realizedVolatility": 0.007360081710835261
+    },
+    "paperTrade": {
+      "tradeCount": 14,
+      "winRate": 0.35714285714285715,
+      "avgReturn": -0.001885358722480882,
+      "medianReturn": -0.00549722068385532,
+      "feeBps": 10,
+      "holdSteps": 6
+    },
+    "social": {
+      "mentionWindows24h": [
+        4,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1,
+        0,
+        5,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        3,
+        1,
+        0,
+        0,
+        1
+      ],
+      "mentionZ": -0.061662641597820665,
+      "mentionBurst": {
+        "z": -0.061662641597820665,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 1
+      },
+      "authorConcentration": 0.631578947368421,
+      "redditPostsScanned": 150,
+      "matchedPosts": 57,
+      "newsCount": 0,
+      "attentionZ": -0.7445587058777478
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.003487024490858649,
+      "meanForwardReturn": -0.019561304343092105,
+      "impacts": [
+        {
+          "ts": 1770861232095,
+          "idx": 49,
+          "forwardReturn": 0.003487024490858649
+        },
+        {
+          "ts": 1770890032095,
+          "idx": 57,
+          "forwardReturn": -0.04260963317704286
+        }
+      ]
+    }
+  }
+]

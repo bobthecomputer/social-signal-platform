@@ -1,0 +1,323 @@
+{
+  "generatedAt": 1770944033504,
+  "settingsUsed": {
+    "watchlist": [
+      "bitcoin",
+      "ethereum",
+      "solana",
+      "dogecoin"
+    ],
+    "redditSubreddits": [
+      "cryptocurrency",
+      "bitcoin",
+      "ethtrader"
+    ],
+    "thresholds": {
+      "rsiOverbought": 70,
+      "rsiOversold": 30,
+      "socialBurstZ": 1.5,
+      "attentionSpikeZ": 2,
+      "manipulationConcentration": 0.6
+    },
+    "mode": "aggressive"
+  },
+  "summaries": [
+    {
+      "coinId": "bitcoin",
+      "ticker": "BTC",
+      "capturedAt": 1770944031701,
+      "priceSource": "binance",
+      "lastPrice": 65941.41,
+      "signalScore": 45,
+      "indicators": {
+        "rsi14": 31.776969662866136,
+        "realizedVolatility": 0.0061346734883489665
+      },
+      "paperTrade": {
+        "tradeCount": 9,
+        "winRate": 0.5555555555555556,
+        "avgReturn": 0.002698272169513392,
+        "medianReturn": 0.0026868976383230877,
+        "feeBps": 10,
+        "holdSteps": 6
+      },
+      "social": {
+        "mentionWindows24h": [
+          0,
+          3,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          3,
+          1,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          0,
+          4,
+          3,
+          0,
+          0,
+          2
+        ],
+        "mentionZ": 0.3629150273454803,
+        "mentionBurst": {
+          "z": 0.3629150273454803,
+          "threshold": 1.5,
+          "burst": false,
+          "latest": 2
+        },
+        "authorConcentration": 0.6206896551724138,
+        "redditPostsScanned": 150,
+        "matchedPosts": 58,
+        "newsCount": 0,
+        "attentionZ": -0.01518035814521697
+      },
+      "eventImpact6h": {
+        "count": 0,
+        "medianForwardReturn": null,
+        "meanForwardReturn": null,
+        "impacts": []
+      }
+    },
+    {
+      "coinId": "ethereum",
+      "ticker": "ETH",
+      "capturedAt": 1770944032291,
+      "priceSource": "binance",
+      "lastPrice": 1930.96,
+      "signalScore": 41,
+      "indicators": {
+        "rsi14": 33.19325496037024,
+        "realizedVolatility": 0.007360081710835261
+      },
+      "paperTrade": {
+        "tradeCount": 14,
+        "winRate": 0.35714285714285715,
+        "avgReturn": -0.001885358722480882,
+        "medianReturn": -0.00549722068385532,
+        "feeBps": 10,
+        "holdSteps": 6
+      },
+      "social": {
+        "mentionWindows24h": [
+          4,
+          1,
+          2,
+          0,
+          0,
+          2,
+          1,
+          0,
+          5,
+          2,
+          0,
+          2,
+          0,
+          0,
+          0,
+          1,
+          0,
+          1,
+          0,
+          3,
+          1,
+          0,
+          0,
+          1
+        ],
+        "mentionZ": -0.061662641597820665,
+        "mentionBurst": {
+          "z": -0.061662641597820665,
+          "threshold": 1.5,
+          "burst": false,
+          "latest": 1
+        },
+        "authorConcentration": 0.631578947368421,
+        "redditPostsScanned": 150,
+        "matchedPosts": 57,
+        "newsCount": 0,
+        "attentionZ": -0.7445587058777478
+      },
+      "eventImpact6h": {
+        "count": 2,
+        "medianForwardReturn": 0.003487024490858649,
+        "meanForwardReturn": -0.019561304343092105,
+        "impacts": [
+          {
+            "ts": 1770861232095,
+            "idx": 49,
+            "forwardReturn": 0.003487024490858649
+          },
+          {
+            "ts": 1770890032095,
+            "idx": 57,
+            "forwardReturn": -0.04260963317704286
+          }
+        ]
+      }
+    },
+    {
+      "coinId": "solana",
+      "ticker": "SOL",
+      "capturedAt": 1770944032926,
+      "priceSource": "binance",
+      "lastPrice": 77.87,
+      "signalScore": 45,
+      "indicators": {
+        "rsi14": 26.053215077605387,
+        "realizedVolatility": 0.0077412556195648845
+      },
+      "paperTrade": {
+        "tradeCount": 9,
+        "winRate": 0.6666666666666666,
+        "avgReturn": -0.0022337890891983014,
+        "medianReturn": 0.001833312724125167,
+        "feeBps": 10,
+        "holdSteps": 6
+      },
+      "social": {
+        "mentionWindows24h": [
+          0,
+          3,
+          2,
+          1,
+          0,
+          0,
+          2,
+          0,
+          4,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mentionZ": -0.6030226891555274,
+        "mentionBurst": {
+          "z": -0.6030226891555274,
+          "threshold": 1.5,
+          "burst": false,
+          "latest": 0
+        },
+        "authorConcentration": 0.46153846153846156,
+        "redditPostsScanned": 150,
+        "matchedPosts": 26,
+        "newsCount": 0,
+        "attentionZ": -1.5281471628823298
+      },
+      "eventImpact6h": {
+        "count": 2,
+        "medianForwardReturn": 0.014512527908707537,
+        "meanForwardReturn": -0.016408415447033267,
+        "impacts": [
+          {
+            "ts": 1770864832714,
+            "idx": 50,
+            "forwardReturn": 0.014512527908707537
+          },
+          {
+            "ts": 1770890032714,
+            "idx": 57,
+            "forwardReturn": -0.04732935880277407
+          }
+        ]
+      }
+    },
+    {
+      "coinId": "dogecoin",
+      "ticker": "DOGE",
+      "capturedAt": 1770944033503,
+      "priceSource": "binance",
+      "lastPrice": 0.09228,
+      "signalScore": 41,
+      "indicators": {
+        "rsi14": 38.67684478371496,
+        "realizedVolatility": 0.006636121826767803
+      },
+      "paperTrade": {
+        "tradeCount": 13,
+        "winRate": 0.46153846153846156,
+        "avgReturn": 0.0028282204446603084,
+        "medianReturn": -0.0032191067272525657,
+        "feeBps": 10,
+        "holdSteps": 6
+      },
+      "social": {
+        "mentionWindows24h": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mentionZ": -0.3015113445777637,
+        "mentionBurst": {
+          "z": -0.3015113445777637,
+          "threshold": 1.5,
+          "burst": false,
+          "latest": 0
+        },
+        "authorConcentration": 1,
+        "redditPostsScanned": 150,
+        "matchedPosts": 2,
+        "newsCount": 0,
+        "attentionZ": -0.373551908325338
+      },
+      "eventImpact6h": {
+        "count": 2,
+        "medianForwardReturn": 0.013885875461054496,
+        "meanForwardReturn": -0.006158894395591221,
+        "impacts": [
+          {
+            "ts": 1770864833320,
+            "idx": 50,
+            "forwardReturn": 0.013885875461054496
+          },
+          {
+            "ts": 1770893633320,
+            "idx": 58,
+            "forwardReturn": -0.026203664252236938
+          }
+        ]
+      }
+    }
+  ]
+}

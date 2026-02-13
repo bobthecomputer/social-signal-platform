@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Signal Market Analytics</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <h1>Social Signal Market Analytics</h1>
+        <p class="muted">Impact • Forecast Support • Alerts</p>
+      </div>
+      <div class="actions">
+        <button id="runBtn">Run pipeline</button>
+        <span id="status" class="status">idle</span>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="panel settings-panel">
+        <h2>User controls</h2>
+        <div class="form-grid">
+          <label>
+            Watchlist (comma separated)
+            <input id="watchlistInput" type="text" placeholder="bitcoin,ethereum,solana" />
+          </label>
+
+          <label>
+            Alert mode
+            <select id="modeInput">
+              <option value="quiet">quiet</option>
+              <option value="normal">normal</option>
+              <option value="aggressive">aggressive</option>
+            </select>
+          </label>
+
+          <label>
+            RSI overbought
+            <input id="rsiHighInput" type="number" step="1" />
+          </label>
+
+          <label>
+            RSI oversold
+            <input id="rsiLowInput" type="number" step="1" />
+          </label>
+
+          <label>
+            Social burst z-score
+            <input id="burstInput" type="number" step="0.1" />
+          </label>
+
+          <label>
+            Attention spike z-score
+            <input id="attentionInput" type="number" step="0.1" />
+          </label>
+        </div>
+        <div class="settings-actions">
+          <button id="saveSettingsBtn">Save settings</button>
+          <button id="reloadBtn" class="secondary">Reload snapshot</button>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Asset explainability cards</h2>
+        <div id="cards" class="cards"></div>
+      </section>
+
+      <section class="panel">
+        <h2>Alert inbox</h2>
+        <ul id="alerts" class="alerts"></ul>
+      </section>
+
+      <section class="panel full">
+        <h2>Event timeline (last 24h mention windows)</h2>
+        <div id="timeline" class="timeline"></div>
+      </section>
+    </main>
+
+    <template id="cardTpl">
+      <article class="card">
+        <h3></h3>
+        <ul></ul>
+      </article>
+    </template>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

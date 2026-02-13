@@ -1,0 +1,283 @@
+[
+  {
+    "coinId": "solana",
+    "ticker": "SOL",
+    "capturedAt": 1770943588417,
+    "priceSource": "binance",
+    "lastPrice": 77.85,
+    "indicators": {
+      "rsi14": 25.99557522123898,
+      "realizedVolatility": 0.007743719318133141
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        0,
+        1,
+        0,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.6030226891555274,
+      "mentionBurst": {
+        "z": -0.6030226891555274,
+        "threshold": 2.5,
+        "burst": false,
+        "latest": 0
+      },
+      "redditPostsScanned": 150,
+      "newsCount": 0,
+      "attentionZ": -1.5281471628823298
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.014512527908707537,
+      "meanForwardReturn": -0.016408415447033267,
+      "impacts": [
+        {
+          "ts": 1770864388079,
+          "idx": 50,
+          "forwardReturn": 0.014512527908707537
+        },
+        {
+          "ts": 1770889588079,
+          "idx": 57,
+          "forwardReturn": -0.04732935880277407
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "solana",
+    "ticker": "SOL",
+    "capturedAt": 1770943813993,
+    "priceSource": "binance",
+    "lastPrice": 77.7,
+    "signalScore": 45,
+    "indicators": {
+      "rsi14": 25.571273122959795,
+      "realizedVolatility": 0.0077658821187838924
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.6030226891555274,
+      "mentionBurst": {
+        "z": -0.6030226891555274,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 0
+      },
+      "authorConcentration": 0.46153846153846156,
+      "redditPostsScanned": 150,
+      "matchedPosts": 26,
+      "newsCount": 0,
+      "attentionZ": -1.5281471628823298
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.014512527908707537,
+      "meanForwardReturn": -0.016408415447033267,
+      "impacts": [
+        {
+          "ts": 1770864613809,
+          "idx": 50,
+          "forwardReturn": 0.014512527908707537
+        },
+        {
+          "ts": 1770889813809,
+          "idx": 57,
+          "forwardReturn": -0.04732935880277407
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "solana",
+    "ticker": "SOL",
+    "capturedAt": 1770943901847,
+    "priceSource": "binance",
+    "lastPrice": 77.64,
+    "signalScore": 45,
+    "indicators": {
+      "rsi14": 25.405405405405446,
+      "realizedVolatility": 0.0077765599802713916
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.6030226891555274,
+      "mentionBurst": {
+        "z": -0.6030226891555274,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 0
+      },
+      "authorConcentration": 0.46153846153846156,
+      "redditPostsScanned": 150,
+      "matchedPosts": 26,
+      "newsCount": 0,
+      "attentionZ": -1.5281471628823298
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.014512527908707537,
+      "meanForwardReturn": -0.016408415447033267,
+      "impacts": [
+        {
+          "ts": 1770864701633,
+          "idx": 50,
+          "forwardReturn": 0.014512527908707537
+        },
+        {
+          "ts": 1770889901633,
+          "idx": 57,
+          "forwardReturn": -0.04732935880277407
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "solana",
+    "ticker": "SOL",
+    "capturedAt": 1770944032926,
+    "priceSource": "binance",
+    "lastPrice": 77.87,
+    "signalScore": 45,
+    "indicators": {
+      "rsi14": 26.053215077605387,
+      "realizedVolatility": 0.0077412556195648845
+    },
+    "paperTrade": {
+      "tradeCount": 9,
+      "winRate": 0.6666666666666666,
+      "avgReturn": -0.0022337890891983014,
+      "medianReturn": 0.001833312724125167,
+      "feeBps": 10,
+      "holdSteps": 6
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        1,
+        0,
+        0,
+        2,
+        0,
+        4,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.6030226891555274,
+      "mentionBurst": {
+        "z": -0.6030226891555274,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 0
+      },
+      "authorConcentration": 0.46153846153846156,
+      "redditPostsScanned": 150,
+      "matchedPosts": 26,
+      "newsCount": 0,
+      "attentionZ": -1.5281471628823298
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.014512527908707537,
+      "meanForwardReturn": -0.016408415447033267,
+      "impacts": [
+        {
+          "ts": 1770864832714,
+          "idx": 50,
+          "forwardReturn": 0.014512527908707537
+        },
+        {
+          "ts": 1770890032714,
+          "idx": 57,
+          "forwardReturn": -0.04732935880277407
+        }
+      ]
+    }
+  }
+]

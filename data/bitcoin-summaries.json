@@ -1,0 +1,239 @@
+[
+  {
+    "coinId": "bitcoin",
+    "ticker": "BTC",
+    "capturedAt": 1770943586970,
+    "priceSource": "binance",
+    "lastPrice": 65953.86,
+    "indicators": {
+      "rsi14": 31.84669149200529,
+      "realizedVolatility": 0.0061329571705577976
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        0,
+        2,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        1,
+        3,
+        2,
+        2,
+        1,
+        0,
+        2,
+        5,
+        0,
+        0,
+        2
+      ],
+      "mentionZ": 0.3168150047139433,
+      "mentionBurst": {
+        "z": 0.3168150047139433,
+        "threshold": 2.5,
+        "burst": false,
+        "latest": 2
+      },
+      "redditPostsScanned": 150,
+      "newsCount": 0,
+      "attentionZ": -0.01518035814521697
+    },
+    "eventImpact6h": {
+      "count": 0,
+      "medianForwardReturn": null,
+      "meanForwardReturn": null,
+      "impacts": []
+    }
+  },
+  {
+    "coinId": "bitcoin",
+    "ticker": "BTC",
+    "capturedAt": 1770943812851,
+    "priceSource": "binance",
+    "lastPrice": 65918.7,
+    "signalScore": 45,
+    "indicators": {
+      "rsi14": 31.650573520834755,
+      "realizedVolatility": 0.006138008634110145
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        4,
+        3,
+        0,
+        0,
+        2
+      ],
+      "mentionZ": 0.3629150273454803,
+      "mentionBurst": {
+        "z": 0.3629150273454803,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 2
+      },
+      "authorConcentration": 0.6206896551724138,
+      "redditPostsScanned": 150,
+      "matchedPosts": 58,
+      "newsCount": 0,
+      "attentionZ": -0.01518035814521697
+    },
+    "eventImpact6h": {
+      "count": 0,
+      "medianForwardReturn": null,
+      "meanForwardReturn": null,
+      "impacts": []
+    }
+  },
+  {
+    "coinId": "bitcoin",
+    "ticker": "BTC",
+    "capturedAt": 1770943900491,
+    "priceSource": "binance",
+    "lastPrice": 65948.05,
+    "signalScore": 45,
+    "indicators": {
+      "rsi14": 31.81411660317046,
+      "realizedVolatility": 0.0061337482358667745
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        4,
+        3,
+        0,
+        0,
+        2
+      ],
+      "mentionZ": 0.3629150273454803,
+      "mentionBurst": {
+        "z": 0.3629150273454803,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 2
+      },
+      "authorConcentration": 0.6206896551724138,
+      "redditPostsScanned": 150,
+      "matchedPosts": 58,
+      "newsCount": 0,
+      "attentionZ": -0.01518035814521697
+    },
+    "eventImpact6h": {
+      "count": 0,
+      "medianForwardReturn": null,
+      "meanForwardReturn": null,
+      "impacts": []
+    }
+  },
+  {
+    "coinId": "bitcoin",
+    "ticker": "BTC",
+    "capturedAt": 1770944031701,
+    "priceSource": "binance",
+    "lastPrice": 65941.41,
+    "signalScore": 45,
+    "indicators": {
+      "rsi14": 31.776969662866136,
+      "realizedVolatility": 0.0061346734883489665
+    },
+    "paperTrade": {
+      "tradeCount": 9,
+      "winRate": 0.5555555555555556,
+      "avgReturn": 0.002698272169513392,
+      "medianReturn": 0.0026868976383230877,
+      "feeBps": 10,
+      "holdSteps": 6
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        3,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2,
+        3,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        4,
+        3,
+        0,
+        0,
+        2
+      ],
+      "mentionZ": 0.3629150273454803,
+      "mentionBurst": {
+        "z": 0.3629150273454803,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 2
+      },
+      "authorConcentration": 0.6206896551724138,
+      "redditPostsScanned": 150,
+      "matchedPosts": 58,
+      "newsCount": 0,
+      "attentionZ": -0.01518035814521697
+    },
+    "eventImpact6h": {
+      "count": 0,
+      "medianForwardReturn": null,
+      "meanForwardReturn": null,
+      "impacts": []
+    }
+  }
+]

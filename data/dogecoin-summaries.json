@@ -1,0 +1,217 @@
+[
+  {
+    "coinId": "dogecoin",
+    "ticker": "DOGE",
+    "capturedAt": 1770943814693,
+    "priceSource": "binance",
+    "lastPrice": 0.0923,
+    "signalScore": 41,
+    "indicators": {
+      "rsi14": 38.77551020408154,
+      "realizedVolatility": 0.006632907742024043
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.3015113445777637,
+      "mentionBurst": {
+        "z": -0.3015113445777637,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 0
+      },
+      "authorConcentration": 1,
+      "redditPostsScanned": 150,
+      "matchedPosts": 2,
+      "newsCount": 0,
+      "attentionZ": -0.373551908325338
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.013885875461054496,
+      "meanForwardReturn": -0.006158894395591221,
+      "impacts": [
+        {
+          "ts": 1770864614372,
+          "idx": 50,
+          "forwardReturn": 0.013885875461054496
+        },
+        {
+          "ts": 1770893414372,
+          "idx": 58,
+          "forwardReturn": -0.026203664252236938
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "dogecoin",
+    "ticker": "DOGE",
+    "capturedAt": 1770943902412,
+    "priceSource": "binance",
+    "lastPrice": 0.09227,
+    "signalScore": 41,
+    "indicators": {
+      "rsi14": 38.62770012706477,
+      "realizedVolatility": 0.00663776456709263
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.3015113445777637,
+      "mentionBurst": {
+        "z": -0.3015113445777637,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 0
+      },
+      "authorConcentration": 1,
+      "redditPostsScanned": 150,
+      "matchedPosts": 2,
+      "newsCount": 0,
+      "attentionZ": -0.373551908325338
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.013885875461054496,
+      "meanForwardReturn": -0.006158894395591221,
+      "impacts": [
+        {
+          "ts": 1770864702227,
+          "idx": 50,
+          "forwardReturn": 0.013885875461054496
+        },
+        {
+          "ts": 1770893502227,
+          "idx": 58,
+          "forwardReturn": -0.026203664252236938
+        }
+      ]
+    }
+  },
+  {
+    "coinId": "dogecoin",
+    "ticker": "DOGE",
+    "capturedAt": 1770944033503,
+    "priceSource": "binance",
+    "lastPrice": 0.09228,
+    "signalScore": 41,
+    "indicators": {
+      "rsi14": 38.67684478371496,
+      "realizedVolatility": 0.006636121826767803
+    },
+    "paperTrade": {
+      "tradeCount": 13,
+      "winRate": 0.46153846153846156,
+      "avgReturn": 0.0028282204446603084,
+      "medianReturn": -0.0032191067272525657,
+      "feeBps": 10,
+      "holdSteps": 6
+    },
+    "social": {
+      "mentionWindows24h": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mentionZ": -0.3015113445777637,
+      "mentionBurst": {
+        "z": -0.3015113445777637,
+        "threshold": 1.5,
+        "burst": false,
+        "latest": 0
+      },
+      "authorConcentration": 1,
+      "redditPostsScanned": 150,
+      "matchedPosts": 2,
+      "newsCount": 0,
+      "attentionZ": -0.373551908325338
+    },
+    "eventImpact6h": {
+      "count": 2,
+      "medianForwardReturn": 0.013885875461054496,
+      "meanForwardReturn": -0.006158894395591221,
+      "impacts": [
+        {
+          "ts": 1770864833320,
+          "idx": 50,
+          "forwardReturn": 0.013885875461054496
+        },
+        {
+          "ts": 1770893633320,
+          "idx": 58,
+          "forwardReturn": -0.026203664252236938
+        }
+      ]
+    }
+  }
+]

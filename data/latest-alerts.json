@@ -1,0 +1,138 @@
+{
+  "generatedAt": 1770944033505,
+  "settings": {
+    "watchlist": [
+      "bitcoin",
+      "ethereum",
+      "solana",
+      "dogecoin"
+    ],
+    "redditSubreddits": [
+      "cryptocurrency",
+      "bitcoin",
+      "ethtrader"
+    ],
+    "thresholds": {
+      "rsiOverbought": 70,
+      "rsiOversold": 30,
+      "socialBurstZ": 1.5,
+      "attentionSpikeZ": 2,
+      "manipulationConcentration": 0.6
+    },
+    "mode": "aggressive"
+  },
+  "alerts": [
+    {
+      "level": "info",
+      "coinId": "bitcoin",
+      "type": "paper_edge",
+      "message": "BTC paper strategy shows positive average return (0.27%) over 9 trades.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "field": "paperAvgReturn",
+          "value": 0.002698272169513392
+        },
+        {
+          "field": "paperTradeCount",
+          "value": 9
+        },
+        {
+          "field": "paperWinRate",
+          "value": 0.5555555555555556
+        }
+      ],
+      "ts": 1770944033505
+    },
+    {
+      "level": "info",
+      "coinId": "dogecoin",
+      "type": "paper_edge",
+      "message": "DOGE paper strategy shows positive average return (0.28%) over 13 trades.",
+      "confidence": 0.8,
+      "evidence": [
+        {
+          "field": "paperAvgReturn",
+          "value": 0.0028282204446603084
+        },
+        {
+          "field": "paperTradeCount",
+          "value": 13
+        },
+        {
+          "field": "paperWinRate",
+          "value": 0.46153846153846156
+        }
+      ],
+      "ts": 1770944033505
+    },
+    {
+      "level": "info",
+      "coinId": "ethereum",
+      "type": "historical_impact",
+      "message": "Similar social bursts historically had median 6-step forward return of 0.35% for ETH.",
+      "confidence": 0.73,
+      "evidence": [
+        {
+          "field": "impactCount",
+          "value": 2
+        },
+        {
+          "field": "medianForwardReturn",
+          "value": 0.003487024490858649
+        }
+      ],
+      "ts": 1770944033505
+    },
+    {
+      "level": "info",
+      "coinId": "solana",
+      "type": "historical_impact",
+      "message": "Similar social bursts historically had median 6-step forward return of 1.45% for SOL.",
+      "confidence": 0.73,
+      "evidence": [
+        {
+          "field": "impactCount",
+          "value": 2
+        },
+        {
+          "field": "medianForwardReturn",
+          "value": 0.014512527908707537
+        }
+      ],
+      "ts": 1770944033505
+    },
+    {
+      "level": "info",
+      "coinId": "dogecoin",
+      "type": "historical_impact",
+      "message": "Similar social bursts historically had median 6-step forward return of 1.39% for DOGE.",
+      "confidence": 0.73,
+      "evidence": [
+        {
+          "field": "impactCount",
+          "value": 2
+        },
+        {
+          "field": "medianForwardReturn",
+          "value": 0.013885875461054496
+        }
+      ],
+      "ts": 1770944033505
+    },
+    {
+      "level": "info",
+      "coinId": "solana",
+      "type": "oversold_signal",
+      "message": "SOL RSI(14) is 26.1 (oversold zone).",
+      "confidence": 0.7,
+      "evidence": [
+        {
+          "field": "rsi14",
+          "value": 26.053215077605387
+        }
+      ],
+      "ts": 1770944033505
+    }
+  ]
+}
